@@ -56,9 +56,29 @@ main {
     margin:8px
 }
 @media (max-width: 999px){
+    body{
+        overflow-x: hidden;
+    }
     .nav-list{
         position: absolute;
         top: 8vh;
         right: 0ch;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        align-items: center;
+        justify-content: space space-around;
+        transform: translateX(100%);
+    }
+    .nav-list li {
+        margin-left: 0%;
+        opacity: 0;}
+
+        .mobile menu{
+            display: block;
+        }
+    }
+    .nav-list.active {
+        transform:translate(0)
     }
 }
