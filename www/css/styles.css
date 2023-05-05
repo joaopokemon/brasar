@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: green;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    filter: grayscale(1) invert(1);
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: red;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: blue;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.brasar_details {
+    padding: 0px;
+    padding-right: 30px;
+    margin: 0px;
+}
+.brasar_details div {
+    font-size: x-small;
+    text-align: center;
+}
+.brasar_details  #title{
+    font-size: medium;
+
+}
+
+a{
+    text-decoration:none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+main {
+    background: url(selobrasar) no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin:8px
+}
